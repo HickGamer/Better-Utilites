@@ -1,4 +1,4 @@
-package BetterUtilities.Library;
+package BetterUtilities.Loaders;
 
 import BetterUtilities.Registry.BUBlocks;
 import BetterUtilities.Registry.BUItems;

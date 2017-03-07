@@ -1,4 +1,4 @@
-package BetterUtilities.Library;
+package BetterUtilities.Loaders;
 
 public class PostInitLoader {
 

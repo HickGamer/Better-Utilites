@@ -68,7 +68,8 @@ public class EnumLibrary {
 		copper("basic", 0),
 		tin("advanced", 1),
 		cadmium("elite", 2),
-		iridium("ultimate", 3);
+		iridium("ultimate", 3),
+		silver("silver", 4);
 		
 		private int ID;
 		private String name;
