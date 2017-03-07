@@ -1,0 +1,16 @@
+[
+{
+  "modid": "boe",
+  "name": "BitOfEverything",
+  "description": "Add a bit of everything.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://cjminecraft.theclever.me",
+  "updateUrl": "",
+  "authorList": ["CJMinecraft"],
+  "credits": "Me because I am a boss!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

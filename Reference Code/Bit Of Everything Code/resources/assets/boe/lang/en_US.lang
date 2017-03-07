@@ -1,0 +1,58 @@
+tile.tin_ore.overworld.name=Tin Ore
+tile.tin_ore.nether.name=Tin Ore
+tile.tin_ore.end.name=Tin Ore
+tile.tin_block.name=Block of Tin
+tile.tin_slab_half.name=Tin Slab
+tile.tin_stairs.name=Tin Stairs
+tile.tin_fence.name=Tin Fence
+tile.tin_fence_gate.name=Tin Fence Gate
+tile.block_breaker.basic.name=Block Breaker (Basic)
+tile.block_breaker.advanced.name=Block Breaker (Advanced)
+tile.gamemode_detector.name=Gamemode Detector
+tile.machine_frame.basic.name=Machine Frame (Basic)
+tile.machine_frame.advanced.name=Machine Frame (Advanced)
+tile.tin_button.name=Tin Button
+tile.tin_pressure_plate.name=Tin Pressure Plate
+tile.tin_door.name=Tin Door
+
+item.tin_ingot.name=Tin Ingot
+item.tin_nugget.name=Tin Nugget
+item.tin_pickaxe.name=Tin Pickaxe
+item.tin_axe.name=Tin Axe
+item.tin_hoe.name=Tin Hoe
+item.tin_shovel.name=Tin Shovel
+item.tin_sword.name=Tin Sword
+
+item.heart.name=Heart
+item.soul_stealer.name=Soul Stealer
+
+item.tin_apple.name=Tin Apple
+item.nice_biscuit.name=Nice Biscuit
+
+item.infinity_flame.name=Infinity Flame
+
+item.tin_helmet.name=Tin Helmet
+item.tin_chestplate.name=Tin Chestplate
+item.tin_leggings.name=Tin Leggings
+item.tin_boots.name=Tin Boots
+
+item.chip.basic.name=Basic Chip
+item.chip.advanced.name=Advanced Chip
+
+itemGroup.boeblocks=BitOfEverything Blocks
+itemGroup.boeitems=BitOfEverything Items
+
+boe.heart.tooltip=Heals the player
+boe.soul_stealer.tooltip=Steals the hearts of entities
+
+achievement.tinman=Tin Man
+achievement.tinman.desc=Wear all tin armour
+
+container.block_breaker=Block Breaker
+
+gui.block_breaker.enchanted_book.tooltip=Enchanted book goes here
+
+block.tin_fence_gate.open=Tin Fence Gate Opened
+block.tin_fence_gate.close=Tin Fence Gate Closed
+block.tin_button.click_on=Tin Button Clicked
+block.tin_button.click_off=Tin Button Released

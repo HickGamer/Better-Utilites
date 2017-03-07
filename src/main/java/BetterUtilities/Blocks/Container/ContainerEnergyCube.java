@@ -1,19 +1,27 @@
 package BetterUtilities.Blocks.Container;
 
-import net.minecraft.client.gui.inventory.GuiContainer;
+import BetterUtilities.Blocks.TileEntities.TileEnergyCube;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;
+import net.minecraft.inventory.IInventory;
+import net.minecraftforge.items.CapabilityItemHandler;
+import net.minecraftforge.items.IItemHandler;
 
-public class ContainerEnergyCube extends GuiContainer{
-
-	public ContainerEnergyCube(Container inventorySlotsIn) {
-		super(inventorySlotsIn);
-		// TODO Auto-generated constructor stub
+public class ContainerEnergyCube extends Container{
+	
+	private TileEnergyCube te;
+	private IItemHandler handler;
+	
+	public ContainerEnergyCube(IInventory playerInv, TileEnergyCube te){
+		this.te = te;
+		this.handler = te.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null);
 	}
 
 	@Override
-	protected void drawGuiContainerBackgroundLayer(float partialTicks, int mouseX, int mouseY) {
-		// TODO Auto-generated method stub
-		
+	public boolean canInteractWith(EntityPlayer playerIn) {
+		return this.te.isUseableByPlayer(playerIn);
 	}
+
+	
 
 }
