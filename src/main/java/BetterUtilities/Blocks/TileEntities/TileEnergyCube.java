@@ -1,5 +1,7 @@
 package BetterUtilities.Blocks.TileEntities;
 
-public class TileEnergyCube {
+import net.minecraft.tileentity.TileEntity;
+
+public class TileEnergyCube extends TileEntity{
 
 }
